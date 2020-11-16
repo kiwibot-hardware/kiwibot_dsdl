@@ -1,0 +1,23 @@
+#
+# Chassis Test Report
+#
+uavcan.diagnostic.Severity.1.0 severity
+
+uint8 motor1
+uint8 motor2
+uint8 motor3
+uint8 motor4
+# Motorx:
+# OK=0
+# Error=1
+# Bit0 - Encoder Error
+# Bit1 - Current Sensor error
+# Bit2 - Turn Error
+uint8 batery_sensor
+# battery Sensor: 0 - OK 1- Error
+
+uint2 OK = 0
+# status ok.
+
+uint2 ERROR = 1
+# There's an error in the corresponding bit field

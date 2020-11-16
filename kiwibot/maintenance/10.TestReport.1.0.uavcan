@@ -13,7 +13,7 @@ uint8 motor4
 # Bit0 - Encoder Error
 # Bit1 - Current Sensor error
 # Bit2 - Turn Error
-uint8 batery_sensor
+uint8 battery_sensor
 # battery Sensor: 0 - OK 1- Error
 
 uint2 OK = 0

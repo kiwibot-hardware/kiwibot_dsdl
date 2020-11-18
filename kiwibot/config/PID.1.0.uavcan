@@ -1,0 +1,16 @@
+#
+# PID data type
+#
+float16 kp
+# Proportional constant
+float16 ki
+# Integral constant
+float16 kd
+# Derivative constant
+uint8 ilimit
+# Integral Limit
+# uint8 and scaled to pack it on CAN classic frame
+# 0 → Disable it
+# 1-255 scaled to x=[0.5 , 50]
+# limit=x*MAX_RAW_POWER
+# MAX_RAW_POWER=1000

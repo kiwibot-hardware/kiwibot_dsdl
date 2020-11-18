@@ -1,0 +1,14 @@
+
+#
+# Motors RPM PID config service
+#
+kiwibot.config.PID.1.0 pid
+# Pid configuration data
+---
+
+uint8 STATUS_SUCCESS        = 0     # Started or executed successfully
+uint8 STATUS_FAILURE        = 1     # Could not start or the desired outcome could not be reached
+uint8 STATUS_NOT_AUTHORIZED = 2     # Denied due to lack of authorization
+uint8 STATUS_BAD_PARAMETER  = 3     # The supplied parameter cannot be used with the selected command
+uint8 status
+# The result of the request.

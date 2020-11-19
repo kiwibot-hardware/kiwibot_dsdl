@@ -1,0 +1,4 @@
+#
+# Motors RPM feedback message
+#
+kiwibot.control.MotorsRpm.1.0 rpms

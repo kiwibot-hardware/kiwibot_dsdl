@@ -1,0 +1,11 @@
+#
+# Motors RPM data type
+#
+float16 motor1
+# Motor1 RPM info
+float16 motor2
+# Motor2 RPM info
+float16 motor3
+# Motor3 RPM info
+float16 motor4
+# Motor4 RPM info

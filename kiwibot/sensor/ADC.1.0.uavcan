@@ -1,0 +1,4 @@
+#
+# ADC data type
+#
+uavcan.primitive.scalar.Natural16.1.0 adc

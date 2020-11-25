@@ -1,11 +1,4 @@
 #
 # Raw Current adc readings message
 #
-kiwibot.sensor.ADC.1.0 current1
-# Current1 ADC info
-kiwibot.sensor.ADC.1.0 current2
-# Current2 ADC info
-kiwibot.sensor.ADC.1.0 current3
-# Current3 ADC info
-kiwibot.sensor.ADC.1.0 current4
-# Current4 ADC info
+uavcan.primitive.scalar.Natural16.1.0[4] current

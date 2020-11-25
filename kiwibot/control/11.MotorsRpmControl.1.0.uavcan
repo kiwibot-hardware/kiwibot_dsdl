@@ -1,4 +1,4 @@
 #
 # Motors RPM control message
 #
-kiwibot.control.MotorsRpm.1.0 rpms
+uavcan.primitive.scalar.Real16.1.0[4] rpms

@@ -1,0 +1,4 @@
+#
+# ButtonEvent
+#
+bool pressed

@@ -1,0 +1,13 @@
+# Lite Version of node info request.
+# All of the returned information shall be static (unchanged) while the node is running.
+# It is highly recommended to support this service on all nodes.
+
+@sealed
+
+---
+uavcan.node.Version.1.0 protocol_version
+# The UAVCAN protocol version implemented on this node, both major and minor.
+# Not to be changed while the node is running.
+
+uavcan.node.Version.1.0 hardware_version
+uavcan.node.Version.1.0 software_version

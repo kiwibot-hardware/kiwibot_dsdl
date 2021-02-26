@@ -1,0 +1,14 @@
+# Lite Version of register access request.
+# All of the returned information shall be static (unchanged) while the node is running.
+# It is highly recommended to support this service on all nodes.
+
+@sealed
+
+---
+
+uint32 uptime                       # [second]
+# The uptime seconds counter should never overflow. The counter will reach the upper limit in ~136 years,
+# upon which time it should stay at 0xFFFFFFFF until the node is restarted.
+# Other nodes may detect that a remote node has restarted when this value leaps backwards.
+
+uavcan.primitive.scalar.Integer16.1.0 value

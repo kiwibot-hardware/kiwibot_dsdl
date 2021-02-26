@@ -16,7 +16,7 @@ uavcan.primitive.scalar.Natural16.1.0 cell_voltage_1
 uavcan.primitive.scalar.Natural16.1.0 cell_voltage_2
 uavcan.primitive.scalar.Natural16.1.0 cell_voltage_3
 #Battery cell balance open flag bitwise per cell
-uavcan.primitive.scalar.Natural8.1.0 balanced_state
+#uavcan.primitive.scalar.Natural8.1.0 balanced_state
 #Temperature Sensing Quantity
 #uavcan.primitive.scalar.Natural8.1.0 number_temperature_sensors
 #Temperature °C
@@ -26,6 +26,6 @@ uavcan.primitive.scalar.Natural16.1.0 cycles
 #Remaining battery
 uavcan.primitive.scalar.Natural16.1.0 remaining_capacity
 #Total Capacity the unit is 0.1AH
-#uavcan.primitive.scalar.Natural16.1.0 total_capacity
+uavcan.primitive.scalar.Natural16.1.0 total_capacity
 #Switch Status
 uavcan.primitive.scalar.Natural8.1.0 switch_status

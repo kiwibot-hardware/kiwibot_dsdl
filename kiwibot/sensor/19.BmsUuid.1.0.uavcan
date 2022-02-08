@@ -1,0 +1,8 @@
+# BMS get UUID.
+# All of the returned information shall be static (unchanged) while the node is running.
+
+@sealed
+
+---
+#UUID response.
+uint8[<=17] uuid

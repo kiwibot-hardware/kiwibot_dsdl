@@ -20,7 +20,7 @@ uavcan.primitive.scalar.Natural16.1.0 cell_voltage_3
 #Temperature Sensing Quantity
 #uavcan.primitive.scalar.Natural8.1.0 number_temperature_senscd Dors
 #Temperature °C
-uavcan.primitive.scalar.Natural8.1.0 temperature
+uavcan.primitive.scalar.Integer8.1.0 temperature
 #Number of cycles
 uavcan.primitive.scalar.Natural16.1.0 cycles
 #Remaining battery

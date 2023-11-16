@@ -1,0 +1,6 @@
+#
+# Temperature readings message
+#
+uavcan.primitive.scalar.Integer16.1.0[5] temperature
+
+@extent 64 * 8

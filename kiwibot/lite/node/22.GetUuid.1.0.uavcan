@@ -1,0 +1,8 @@
+# Lite Version of node info request.
+# All of the returned information shall be static (unchanged) while the node is running.
+# It is highly recommended to support this service on all nodes.
+
+@sealed
+
+---
+uint8[16] uuid  

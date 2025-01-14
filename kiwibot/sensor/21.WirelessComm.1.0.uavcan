@@ -9,3 +9,6 @@ uavcan.primitive.scalar.Real16.1.0 current
 uavcan.primitive.scalar.Natural16.1.0 voltage
 #Temperature °C unit is 0.1°C
 uavcan.primitive.scalar.Natural16.1.0 temperature
+#RxUUID
+uint8[6] rx_uuid
+

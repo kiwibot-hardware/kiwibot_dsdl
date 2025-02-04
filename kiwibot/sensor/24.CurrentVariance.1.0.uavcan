@@ -1,0 +1,23 @@
+
+# Message designed to transmitt ADC measurement parameters
+
+# Mean Value
+uavcan.primitive.scalar.Natural16.1.0 mean
+# Variance Value
+uavcan.primitive.scalar.Natural16.1.0 variance
+# Specific for Obstacle detection: measurement threshold when opening
+uavcan.primitive.scalar.Natural16.1.0 meanThresholdOpen
+# Specific for Obstacle detection: measurement threshold when closing
+uavcan.primitive.scalar.Natural16.1.0 meanThresholdClose
+# Specific for Obstacle detection: measurement vaiance 
+uavcan.primitive.scalar.Natural16.1.0 varianceThreshold
+# Specific for Obstacle detection: maximum threshold when opening
+uavcan.primitive.scalar.Natural16.1.0 maxThresholdOpen
+# Specific for Obstacle detection: maximum threshold when closing
+uavcan.primitive.scalar.Natural16.1.0 maxThresholdClose
+
+# Additional miscelaneous info
+# Sequence of door action
+uavcan.primitive.scalar.Natural16.1.0 sequenceNumber
+# Multipurpose variable. Counter variable
+uavcan.primitive.scalar.Natural16.1.0 counter

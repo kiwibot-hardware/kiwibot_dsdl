@@ -1,0 +1,13 @@
+
+# Message designed to transmitt Accelerometer measurement parameters
+
+# per-axis acceleration information
+uavcan.si.unit.acceleration.Scalar.1.0 x_axis
+uavcan.si.unit.acceleration.Scalar.1.0 y_axis
+uavcan.si.unit.acceleration.Scalar.1.0 z_axis
+
+# Additional miscelaneous info
+sequence number
+uavcan.primitive.scalar.Integer16.1.0 sequenceNumber
+# Multipurpose variable
+uavcan.primitive.scalar.Integer16.1.0 counter

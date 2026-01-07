@@ -21,3 +21,5 @@ uint2 OK = 0
 
 uint2 ERROR = 1
 # There's an error in the corresponding bit field
+
+@extent 64 * 8

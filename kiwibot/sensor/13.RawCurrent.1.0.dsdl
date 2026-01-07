@@ -2,3 +2,5 @@
 # Raw Current adc readings message
 #
 uavcan.primitive.scalar.Natural16.1.0[4] current
+
+@extent 64 * 8

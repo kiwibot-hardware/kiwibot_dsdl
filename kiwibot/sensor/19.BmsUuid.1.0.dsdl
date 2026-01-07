@@ -6,3 +6,5 @@
 ---
 #UUID response.
 uint8[<=17] uuid
+
+@extent 64 * 8

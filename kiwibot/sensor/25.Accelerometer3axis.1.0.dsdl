@@ -7,7 +7,9 @@ uavcan.si.unit.acceleration.Scalar.1.0 y_axis
 uavcan.si.unit.acceleration.Scalar.1.0 z_axis
 
 # Additional miscelaneous info
-sequence number
+# sequence number
 uavcan.primitive.scalar.Integer16.1.0 sequenceNumber
 # Multipurpose variable
 uavcan.primitive.scalar.Integer16.1.0 counter
+
+@extent 64 * 8

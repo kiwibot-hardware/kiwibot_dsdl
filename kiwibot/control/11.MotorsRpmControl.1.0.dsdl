@@ -2,3 +2,5 @@
 # Motors RPM control message
 #
 uavcan.primitive.scalar.Real16.1.0[4] rpms
+
+@extent 64 * 8

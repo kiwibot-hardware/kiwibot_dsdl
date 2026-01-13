@@ -10,7 +10,7 @@ uavcan.primitive.scalar.Integer16.1.0 current
 #Represents the number of cells in series managed by the current BMS.
 uavcan.primitive.scalar.Natural8.1.0 number_of_cells
 #Cell voltages the unit of the array element is mV.
-uint16[<=9] cell_voltage
+uint16[9] cell_voltage
 #Battery cell balance open flag bitwise per cell
 #uavcan.primitive.scalar.Natural8.1.0 balanced_state
 #Temperature Sensing Quantity

@@ -6,3 +6,5 @@
 
 ---
 uint8[16] uuid  
+
+@extent 64 * 8

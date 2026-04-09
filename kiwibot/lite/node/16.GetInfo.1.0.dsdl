@@ -11,3 +11,5 @@ uavcan.node.Version.1.0 protocol_version
 
 uavcan.node.Version.1.0 hardware_version
 uavcan.node.Version.1.0 software_version
+
+@extent 64 * 8

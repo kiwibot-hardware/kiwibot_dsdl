@@ -12,3 +12,5 @@ uint32 uptime                       # [second]
 # Other nodes may detect that a remote node has restarted when this value leaps backwards.
 
 uavcan.primitive.scalar.Integer16.1.0 value
+
+@extent 64 * 8

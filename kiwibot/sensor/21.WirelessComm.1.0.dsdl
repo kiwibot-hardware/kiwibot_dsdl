@@ -12,3 +12,4 @@ uavcan.primitive.scalar.Natural16.1.0 temperature
 #RxUUID
 uint8[6] rx_uuid
 
+@extent 64 * 8

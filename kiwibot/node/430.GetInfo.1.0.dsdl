@@ -1,0 +1,43 @@
+# Full node info request.
+# All of the returned information shall be static (unchanged) while the node is running.
+# It is highly recommended to support this service on all nodes.
+
+@sealed
+
+---
+
+uavcan.node.Version.1.0 protocol_version
+# The Cyphal protocol version implemented on this node, both major and minor.
+# Not to be changed while the node is running.
+
+uavcan.node.Version.1.0 hardware_version
+uavcan.node.Version.1.0 software_version
+# The version information shall not be changed while the node is running.
+# The correct hardware version shall be reported at all times, excepting software-only nodes, in which
+# case it should be set to zeros.
+# If the node is equipped with a Cyphal-capable bootloader, the bootloader should report the software
+# version of the installed application, if there is any; if no application is found, zeros should be reported.
+
+uint64 software_vcs_revision_id
+# A version control system (VCS) revision number or hash. Not to be changed while the node is running.
+# For example, this field can be used for reporting the short git commit hash of the current
+# software revision.
+# Set to zero if not used.
+
+uint8[16] unique_id
+# The unique-ID (UID) is a 128-bit long sequence that is likely to be globally unique per node.
+# The vendor shall ensure that the probability of a collision with any other node UID globally is negligibly low.
+# UID is defined once per hardware unit and should never be changed.
+# All zeros is not a valid UID.
+# If the node is equipped with a Cyphal-capable bootloader, the bootloader shall use the same UID.
+
+@assert _offset_ == {30 * 8}
+# Manual serialization note: only fixed-size fields up to this point. The following fields are dynamically sized.
+
+uint32 name_length
+
+uint8[24] name
+
+#@assert _offset_ % 8 == {0}
+#@assert _offset_.max == (313 * 8)     # At most five CAN FD frames
+@extent 448 * 8

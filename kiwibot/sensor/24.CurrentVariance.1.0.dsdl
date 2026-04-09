@@ -21,3 +21,5 @@ uavcan.primitive.scalar.Natural16.1.0 maxThresholdClose
 uavcan.primitive.scalar.Natural16.1.0 sequenceNumber
 # Multipurpose variable. Counter variable
 uavcan.primitive.scalar.Natural16.1.0 counter
+
+@extent 64 * 8

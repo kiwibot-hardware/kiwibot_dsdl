@@ -13,10 +13,10 @@ truncated uint40 offset
 uavcan.file.Path.2.0 path
 uint8[<=512] data
 
-@extent 600 * 8
+@extent 6200
 
 ---
 
-uavcan.error.Error.1.0 error
+uavcan.file.Error.1.0 error
 
 @extent 48 * 8

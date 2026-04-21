@@ -1,0 +1,11 @@
+# Write one legacy 64-byte file block payload.
+
+uint8[86] payload
+
+@extent 1200
+
+---
+
+uavcan.file.Error.1.0 error
+
+@extent 48 * 8

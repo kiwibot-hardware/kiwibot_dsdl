@@ -1,0 +1,12 @@
+# Write into a remote file.
+# Legacy fixed-path variant sized for /bin/a plus a 256-byte data block.
+
+uint8[278] payload
+
+@extent 6200
+
+---
+
+uavcan.file.Error.1.0 error
+
+@extent 48 * 8

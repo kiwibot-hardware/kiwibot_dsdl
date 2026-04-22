@@ -9,7 +9,7 @@
 #
 # When the write operation is complete, the server shall truncate the resulting file past the specified offset.
 
-uint8[534] payload
+uint8[86] payload
 
 @extent 6200
 

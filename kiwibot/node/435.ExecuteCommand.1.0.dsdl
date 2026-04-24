@@ -1,5 +1,3 @@
-@sealed
-
 uint16 command
 
 uint16 COMMAND_RESTART = 65535

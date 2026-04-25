@@ -7,7 +7,7 @@ uint16 COMMAND_FACTORY_RESET = 65532
 uint16 COMMAND_EMERGENCY_STOP = 65531
 uint16 COMMAND_STORE_PERSISTENT_STATES = 65530
 
-uint40 parameter_length
+uint32 parameter_length
 uint8[17] parameter
 
 @extent 300 * 8

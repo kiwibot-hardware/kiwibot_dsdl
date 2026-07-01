@@ -1,0 +1,11 @@
+#
+# ButtonEvent v1.1
+# Published on every edge (falling or rising) of the user button.
+# The counter increments on every edge so listeners can detect dropped messages.
+#
+
+uint32 timestamp_ms
+uint8  counter
+bool   pressed
+
+@extent 64 * 8

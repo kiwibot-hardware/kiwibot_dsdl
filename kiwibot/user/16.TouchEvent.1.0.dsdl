@@ -1,0 +1,11 @@
+#
+# TouchEvent v1.0
+# Published on every edge (falling or rising) of the touch sensor.
+# The counter increments on every edge so listeners can detect dropped messages.
+#
+
+uint32 timestamp_ms
+uint8  counter
+bool   active
+
+@extent 64 * 8
